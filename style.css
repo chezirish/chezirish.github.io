@@ -1,0 +1,77 @@
+
+.box {
+width: 33px;
+height: 33px; 
+border: 1px dashed pink;
+background: blue;
+position: absolute;
+}
+
+
+#snake{
+width: 31px;
+height: 31px; 
+border: green 2px solid;
+background: blue;
+position: absolute;
+left: 0;
+}
+
+#frut {
+width: 35px;
+height: 35px;
+background: red;
+position: absolute;
+}
+
+.score {
+    color: rgb(155,98,100);
+    font-size: 40px;
+    font-weight: 1000;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    left: 4%;
+    bottom: 50%;
+}
+
+.score p {
+position: relative;
+left: 65px;
+bottom: 35px;
+}
+
+.arrow {
+border: solid black 1px;
+width: 32.70%;
+height: 65px;
+background: rgb(200,200,255);
+}
+
+#top {
+margin: 2px auto 0 auto; 
+}
+
+#left{
+float: left; 
+}
+
+#bottom{
+float: left;
+}
+
+#right{
+float: left;
+}
+
+body {
+margin: 0;
+}
+
+#game {
+width: 700px;
+height: 700px;
+border: solid black;
+margin: 0 auto;
+position: relative;
+}
